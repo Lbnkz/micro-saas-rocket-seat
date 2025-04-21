@@ -24,6 +24,8 @@ export async function POST(req: Request) {
 
     const metadata = {
         testeId,
+        price,
+        userId,
     };
 
     try {
